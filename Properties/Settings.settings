@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LinkChecker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SMTPServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.sample.com</Value>
+    </Setting>
+    <Setting Name="SMTPAccount" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yourname@sample.com</Value>
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="DomainsToCheck" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sample.com;sample.com;sample.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
