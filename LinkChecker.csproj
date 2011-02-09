@@ -89,7 +89,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)\Utilities\ilmerge $(TargetDir)linkchecker.exe $(TargetDir)htmlagilitypack.dll nini.dll $(TargetDir)Fizzler.dll $(TargetDir)Fizzler.Systems.HtmlAgilityPack.dll $(TargetDir)utilitiesweb.dll /out:$(TargetDir)linkcheck2.exe /targetplatform:v4,C:\Windows\Microsoft.NET\Framework\v4.0.30319</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir)\Library\Compiled\ilmerge $(TargetDir)linkchecker.exe $(TargetDir)htmlagilitypack.dll $(TargetDir)nini.dll $(TargetDir)Fizzler.dll $(TargetDir)Fizzler.Systems.HtmlAgilityPack.dll $(TargetDir)utilitiesweb.dll /out:$(TargetDir)linkcheck2.exe /targetplatform:v4,C:\Windows\Microsoft.NET\Framework\v4.0.30319</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
