@@ -17,6 +17,7 @@ using System.Text.RegularExpressions;
 using Fizzler;
 using Fizzler.Systems.HtmlAgilityPack;
 
+
 namespace LinkChecker
 {
     class Program
